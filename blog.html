@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Furni - Blog</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/pages/blog.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Furni<span>.</span>
+            </a>
+
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="shop.html">
+                    Shop
+                </a>
+
+                <a href="about.html">
+                    About us
+                </a>
+
+                <a href="services.html">
+                    Services
+                </a>
+
+                <a href="blog.html" class="active">
+                    Blog
+                </a>
+
+                <a href="contact.html">
+                    Contact us
+                </a>
+
+            </nav>
+
+
+            <div class="nav-icons">
+
+                <button class="icon-btn">
+                    ♙
+                </button>
+
+                <a
+                    href="cart.html"
+                    class="icon-btn cart-icon"
+                >
+                    🛒
+                    <span id="cartCount">0</span>
+                </a>
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="blog-hero">
+
+        <div class="container">
+
+            <h1>
+                Blog
+            </h1>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BLOG ================= -->
+
+    <main class="blog-page">
+
+        <div class="container">
+
+
+            <!-- Search -->
+
+            <div class="blog-tools">
+
+                <div class="blog-search">
+
+                    <input
+                        type="text"
+                        id="blogSearch"
+                        placeholder="Search articles..."
+                    >
+
+                    <button id="searchBlogBtn">
+                        🔍
+                    </button>
+
+                </div>
+
+
+                <div class="blog-filters">
+
+                    <button
+                        class="filter-btn active"
+                        data-category="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="design"
+                    >
+                        Design
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="furniture"
+                    >
+                        Furniture
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="interior"
+                    >
+                        Interior
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Blog Grid -->
+
+            <div
+                class="blog-page-grid"
+                id="blogGrid"
+            >
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="design"
+                    data-title="First Time Home Owner Ideas"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
+                        alt="First Time Home Owner"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            DESIGN
+                        </span>
+
+                        <h2>
+                            First Time Home Owner Ideas
+                        </h2>
+
+                        <p>
+                            Discover simple and practical ideas
+                            for creating a beautiful and comfortable
+                            home.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/women/44.jpg"
+                                alt="Kristin Watson"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Kristin Watson
+                                </strong>
+
+                                <span>
+                                    Dec 19, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="furniture"
+                    data-title="How To Keep Your Furniture Clean"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=900&q=80"
+                        alt="Furniture Cleaning"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            FURNITURE
+                        </span>
+
+                        <h2>
+                            How To Keep Your Furniture Clean
+                        </h2>
+
+                        <p>
+                            Learn useful tips to keep your furniture
+                            looking fresh, clean and beautiful.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/men/32.jpg"
+                                alt="Robert Fox"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Robert Fox
+                                </strong>
+
+                                <span>
+                                    Dec 15, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="interior"
+                    data-title="Small Space Furniture Apartment Ideas"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80"
+                        alt="Small Apartment"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            INTERIOR
+                        </span>
+
+                        <h2>
+                            Small Space Furniture Apartment Ideas
+                        </h2>
+
+                        <p>
+                            Make the most of your small apartment
+                            with smart furniture and interior ideas.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/women/65.jpg"
+                                alt="Kristin Watson"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Kristin Watson
+                                </strong>
+
+                                <span>
+                                    Dec 12, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="design"
+                    data-title="Modern Interior Design Trends"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"
+                        alt="Modern Interior"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            DESIGN
+                        </span>
+
+                        <h2>
+                            Modern Interior Design Trends
+                        </h2>
+
+                        <p>
+                            Explore modern interior trends that can
+                            transform your living space.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/men/41.jpg"
+                                alt="Jeremy Walker"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Jeremy Walker
+                                </strong>
+
+                                <span>
+                                    Dec 08, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="furniture"
+                    data-title="Choosing The Right Chair"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=900&q=80"
+                        alt="Chair"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            FURNITURE
+                        </span>
+
+                        <h2>
+                            Choosing The Right Chair
+                        </h2>
+
+                        <p>
+                            Find out what to consider when choosing
+                            furniture for your home.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/men/46.jpg"
+                                alt="Patrik White"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Patrik White
+                                </strong>
+
+                                <span>
+                                    Dec 05, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article
+                    class="blog-page-card"
+                    data-category="interior"
+                    data-title="Creating A Comfortable Living Room"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80"
+                        alt="Living Room"
+                    >
+
+                    <div class="blog-card-content">
+
+                        <span class="blog-category">
+                            INTERIOR
+                        </span>
+
+                        <h2>
+                            Creating A Comfortable Living Room
+                        </h2>
+
+                        <p>
+                            Simple ways to make your living room
+                            more comfortable and welcoming.
+                        </p>
+
+                        <div class="blog-meta">
+
+                            <img
+                                src="https://randomuser.me/api/portraits/women/68.jpg"
+                                alt="Jane Cooper"
+                            >
+
+                            <div>
+
+                                <strong>
+                                    Jane Cooper
+                                </strong>
+
+                                <span>
+                                    Dec 01, 2021
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- No Results -->
+
+            <div
+                class="no-results"
+                id="noResults"
+            >
+
+                <h2>
+                    No articles found
+                </h2>
+
+                <p>
+                    Try another search or category.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="newsletter">
+
+                <h3>
+                    Subscribe to Newsletter
+                </h3>
+
+                <div class="newsletter-form">
+
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <button>
+                        ➤
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-content">
+
+                <div class="footer-about">
+
+                    <h2>
+                        Furni.
+                    </h2>
+
+                    <p>
+                        Donec facilisis quam ut purus rutrum
+                        lobortis. Donec vitae odio quis dui
+                        dapibus malesuada.
+                    </p>
+
+                    <div class="social-links">
+
+                        <a href="#">f</a>
+                        <a href="#">𝕏</a>
+                        <a href="#">in</a>
+                        <a href="#">◎</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        About us
+                    </h4>
+
+                    <a href="about.html">
+                        Services
+                    </a>
+
+                    <a href="blog.html">
+                        Blog
+                    </a>
+
+                    <a href="contact.html">
+                        Contact us
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Support
+                    </h4>
+
+                    <a href="#">
+                        Knowledge base
+                    </a>
+
+                    <a href="#">
+                        Live chat
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Jobs
+                    </h4>
+
+                    <a href="#">
+                        Our Team
+                    </a>
+
+                    <a href="#">
+                        Leadership
+                    </a>
+
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        Products
+                    </h4>
+
+                    <a href="shop.html">
+                        Nordic Chair
+                    </a>
+
+                    <a href="shop.html">
+                        Kruzo Aero
+                    </a>
+
+                    <a href="shop.html">
+                        Ergonomic Chair
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    Copyright ©2026. All Rights Reserved.
+                </p>
+
+                <div>
+
+                    <a href="#">
+                        Terms & Conditions
+                    </a>
+
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/blog.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

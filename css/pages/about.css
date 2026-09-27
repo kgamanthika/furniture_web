@@ -1,0 +1,464 @@
+/* =====================================
+   ABOUT HERO
+===================================== */
+
+.about-hero {
+    background: #3b6256;
+    color: white;
+}
+
+.about-hero-container {
+    min-height: 380px;
+
+    display: grid;
+
+    grid-template-columns: 42% 58%;
+
+    align-items: center;
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.about-hero-content h1 {
+    font-size: 42px;
+    line-height: 1.1;
+
+    margin-bottom: 18px;
+}
+
+.about-hero-content p {
+    max-width: 430px;
+
+    font-size: 11px;
+
+    color: #dce5e1;
+
+    margin-bottom: 22px;
+}
+
+.about-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.about-hero-image {
+    position: relative;
+}
+
+.about-hero-image img {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    mix-blend-mode: screen;
+}
+
+
+.about-dots {
+    position: absolute;
+
+    right: 0;
+    top: -20px;
+
+    width: 110px;
+    height: 110px;
+
+    opacity: .2;
+
+    background-image:
+        radial-gradient(
+            #fff 1.5px,
+            transparent 1.5px
+        );
+
+    background-size: 12px 12px;
+}
+
+
+
+/* =====================================
+   WHY CHOOSE US
+===================================== */
+
+.about-why-section {
+    padding: 90px 0;
+}
+
+.about-why-container {
+    display: grid;
+
+    grid-template-columns: 55% 45%;
+
+    gap: 50px;
+
+    align-items: center;
+}
+
+.about-why-content h2 {
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+
+.about-description {
+    color: #777;
+
+    font-size: 11px;
+
+    max-width: 520px;
+
+    margin-bottom: 30px;
+}
+
+
+.about-features {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 28px;
+}
+
+.about-feature-icon {
+    font-size: 20px;
+
+    margin-bottom: 7px;
+}
+
+.about-feature h3 {
+    font-size: 12px;
+
+    margin-bottom: 5px;
+}
+
+.about-feature p {
+    font-size: 10px;
+
+    color: #777;
+}
+
+
+.about-why-image {
+    position: relative;
+}
+
+.about-why-image img {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+    height: 390px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.about-yellow-dots {
+    position: absolute;
+
+    left: -30px;
+    top: -30px;
+
+    width: 110px;
+    height: 110px;
+
+    background-image:
+        radial-gradient(
+            #f9bf29 2px,
+            transparent 2px
+        );
+
+    background-size: 12px 12px;
+}
+
+
+
+/* =====================================
+   TEAM
+===================================== */
+
+.team-section {
+    padding: 70px 0 90px;
+}
+
+.about-section-title {
+    text-align: center;
+
+    font-size: 24px;
+
+    margin-bottom: 35px;
+}
+
+.team-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+.team-card img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    margin-bottom: 12px;
+}
+
+.team-card h3 {
+    font-size: 14px;
+
+    text-decoration: underline;
+
+    margin-bottom: 2px;
+}
+
+.team-card span {
+    display: block;
+
+    font-size: 8px;
+
+    color: #555;
+
+    margin-bottom: 12px;
+}
+
+.team-card p {
+    font-size: 9px;
+
+    color: #777;
+
+    line-height: 1.7;
+
+    margin-bottom: 8px;
+}
+
+.team-card a {
+    font-size: 9px;
+
+    text-decoration: underline;
+}
+
+
+
+/* =====================================
+   TESTIMONIAL
+===================================== */
+
+.about-testimonial {
+    padding: 70px 0 100px;
+}
+
+.testimonial-box {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+.testimonial-content {
+    max-width: 700px;
+
+    text-align: center;
+
+    margin: auto;
+}
+
+.testimonial-content > p {
+    font-size: 11px;
+
+    color: #777;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+.testimonial-content img {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin: auto;
+}
+
+.testimonial-content h3 {
+    font-size: 11px;
+
+    margin-top: 8px;
+}
+
+.testimonial-content span {
+    font-size: 8px;
+
+    color: #777;
+}
+
+.testimonial-arrow {
+    flex-shrink: 0;
+
+    width: 35px;
+    height: 35px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #e1e6e4;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+    color: #555;
+}
+
+.testimonial-arrow:hover {
+    background: #3b6256;
+
+    color: white;
+}
+
+.testimonial-dots {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    margin-top: 20px;
+}
+
+.testimonial-dots span {
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: #ccd4d1;
+}
+
+.testimonial-dots span.active {
+    background: #3b6256;
+}
+
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 900px) {
+
+    .about-hero-container {
+        grid-template-columns: 1fr;
+
+        padding: 60px 0;
+    }
+
+    .about-hero-content {
+        text-align: center;
+    }
+
+    .about-hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-buttons {
+        justify-content: center;
+    }
+
+    .about-hero-image {
+        margin-top: 30px;
+    }
+
+
+    .about-why-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-why-image {
+        margin-top: 30px;
+    }
+
+
+    .team-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 30px;
+    }
+
+}
+
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 650px) {
+
+    .about-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .about-hero-image img {
+        height: 230px;
+    }
+
+
+    .about-features {
+        grid-template-columns: 1fr;
+    }
+
+
+    .about-why-image img {
+        height: 320px;
+    }
+
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .team-card img {
+        height: 300px;
+    }
+
+
+    .testimonial-box {
+        gap: 10px;
+    }
+
+    .testimonial-arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+}

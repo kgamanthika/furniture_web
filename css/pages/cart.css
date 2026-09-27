@@ -1,0 +1,504 @@
+/* =====================================
+   CART HERO
+===================================== */
+
+.cart-hero {
+
+    background: #3b6256;
+
+    color: white;
+
+    min-height: 170px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.cart-hero h1 {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+}
+
+
+
+/* =====================================
+   CART SECTION
+===================================== */
+
+.cart-section {
+
+    padding: 80px 0 100px;
+
+    min-height: 550px;
+
+}
+
+
+
+/* =====================================
+   CART TABLE
+===================================== */
+
+.cart-table-wrapper {
+
+    overflow-x: auto;
+
+}
+
+
+.cart-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-bottom: 25px;
+
+}
+
+
+.cart-table th {
+
+    text-align: left;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    padding: 15px 12px;
+
+    border-bottom:
+        1px solid #d6dcda;
+
+}
+
+
+.cart-table td {
+
+    padding: 18px 12px;
+
+    border-bottom:
+        1px solid #d6dcda;
+
+    font-size: 11px;
+
+    vertical-align: middle;
+
+}
+
+
+
+/* =====================================
+   PRODUCT
+===================================== */
+
+.cart-product {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+.cart-product img {
+
+    width: 75px;
+
+    height: 75px;
+
+    object-fit: contain;
+
+    mix-blend-mode: multiply;
+
+}
+
+
+.cart-product-name {
+
+    font-weight: 500;
+
+}
+
+
+
+/* =====================================
+   QUANTITY
+===================================== */
+
+.quantity-control {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+
+.quantity-btn {
+
+    width: 25px;
+
+    height: 25px;
+
+    border: 1px solid #ccd4d1;
+
+    background: white;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+
+.quantity-value {
+
+    min-width: 20px;
+
+    text-align: center;
+
+}
+
+
+
+/* =====================================
+   REMOVE
+===================================== */
+
+.remove-btn {
+
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    color: #555;
+
+}
+
+
+.remove-btn:hover {
+
+    color: #d33;
+
+}
+
+
+
+/* =====================================
+   CART ACTIONS
+===================================== */
+
+.cart-actions {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    margin-top: 20px;
+
+}
+
+
+.cart-left {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+
+.cart-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+
+.cart-btn {
+
+    border: none;
+
+    background: #222;
+
+    color: white;
+
+    padding: 11px 18px;
+
+    border-radius: 20px;
+
+    font-size: 10px;
+
+    cursor: pointer;
+
+}
+
+
+.cart-btn:hover {
+
+    background: #3b6256;
+
+}
+
+
+
+/* =====================================
+   COUPON
+===================================== */
+
+.coupon h3 {
+
+    font-size: 14px;
+
+    margin-bottom: 4px;
+
+}
+
+
+.coupon p {
+
+    font-size: 10px;
+
+    color: #777;
+
+    margin-bottom: 10px;
+
+}
+
+
+.coupon-form {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
+
+.coupon-form input {
+
+    width: 180px;
+
+    height: 35px;
+
+    padding: 8px 10px;
+
+    border: 1px solid #ccd4d1;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    font-size: 10px;
+
+}
+
+
+.coupon-form button {
+
+    border: none;
+
+    background: #222;
+
+    color: white;
+
+    padding: 0 18px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    font-size: 10px;
+
+}
+
+
+
+/* =====================================
+   CART TOTALS
+===================================== */
+
+.cart-totals {
+
+    width: 300px;
+
+}
+
+
+.cart-totals h3 {
+
+    font-size: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.total-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 7px 0;
+
+    font-size: 11px;
+
+}
+
+
+.total-row.grand-total {
+
+    border-top:
+        1px solid #d6dcda;
+
+    margin-top: 8px;
+
+    padding-top: 15px;
+
+    font-weight: 700;
+
+}
+
+
+.checkout-btn {
+
+    display: block;
+
+    text-align: center;
+
+    background: #222;
+
+    color: white;
+
+    padding: 13px;
+
+    border-radius: 22px;
+
+    margin-top: 20px;
+
+    font-size: 11px;
+
+}
+
+
+.checkout-btn:hover {
+
+    background: #3b6256;
+
+}
+
+
+
+/* =====================================
+   EMPTY CART
+===================================== */
+
+.empty-cart {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+}
+
+
+.empty-cart h2 {
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.empty-cart p {
+
+    color: #777;
+
+    font-size: 12px;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 700px) {
+
+    .cart-hero {
+
+        min-height: 130px;
+
+    }
+
+    .cart-hero h1 {
+
+        font-size: 34px;
+
+    }
+
+
+    .cart-section {
+
+        padding: 50px 0;
+
+    }
+
+
+    .cart-table th:nth-child(3),
+    .cart-table td:nth-child(3) {
+
+        display: none;
+
+    }
+
+
+    .cart-actions {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+
+    .cart-totals {
+
+        width: 100%;
+
+    }
+
+
+    .coupon-form input {
+
+        width: 160px;
+
+    }
+
+}
